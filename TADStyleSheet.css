@@ -40,7 +40,7 @@ body
     bottom: 0;
     right: 15vw;
     display: inline-block;
-    font-size: 2.75vw;
+    font-size: 3vw;
 }
 
 #navlist {
@@ -201,7 +201,7 @@ video{
         bottom: 0;
         right: 15vw;
         display: inline-block;
-        font-size: 2.75vw;
+        font-size: 3vw;
     }
 
     h3 {
