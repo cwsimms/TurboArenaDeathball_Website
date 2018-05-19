@@ -119,6 +119,9 @@ h3 {
     float: right;
     padding-top: 15%;
     padding-bottom: 3%;
+    height: auto;
+    max-width: 720px;
+    width: 100%;
 }
 
 .feature-gallery-list {
@@ -175,6 +178,18 @@ video{
         margin-right: 0;
         padding-left: 20%;
     }
+
+    .feature-image {
+        background-color: #ebebeb;
+        background-attachment: fixed;
+        background-position: 100%, 50%;
+        float: right;
+        padding-top: 15%;
+        padding-bottom: 3%;
+        height: auto;
+        max-width: 250px;
+        width: 50%;
+    }
     
     #feature-video {
         width: 66.66vw;
@@ -185,14 +200,15 @@ video{
         text-align: left;
         padding-top: 1%;
         padding-left: 5%;
-        font-size: 1.3vw;
+        font-size: 16px;
     }
 
     #navlist li,
     h2 {
         display: inline-block;
         padding: 0px 7px 0px 7px;
-        font-size: 2.75vw;
+        font-size: 20px;
+        
     }
 
     #main-title {
@@ -201,12 +217,39 @@ video{
         bottom: 0;
         right: 15vw;
         display: inline-block;
-        font-size: 3vw;
+        font-size: 24px;
     }
 
     h3 {
         font-family: Helvetica-Bold, sans-serif;
-        font-size: 2.75vw;
+        font-size: 18px;
         text-align: left;
+    }
+}
+
+@media screen and (max-width: 520px) {
+    .center {
+        margin: auto;
+        width: 50%;
+        padding-top: 20%;
+        padding-bottom: 3%;
+    }
+
+    .right {
+        right: 0px;
+        margin-right: 0;
+        padding-left: 0%;
+    }
+
+    .feature-image {
+        background-color: #ebebeb;
+        background-attachment: fixed;
+        background-position: 100%, 50%;
+        float: right;
+        padding-top: 15%;
+        padding-bottom: 3%;
+        height: auto;
+        max-width: 100px;
+        width: 20%;
     }
 }
