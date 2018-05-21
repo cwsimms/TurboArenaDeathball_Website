@@ -259,4 +259,11 @@ video{
     body{
         width: 300px;
     }
+
+    #navlist li,
+    h2 {
+        display: inline-block;
+        padding: 0px 7px 0px 7px;
+        font-size: 16px;
+    }
 }
