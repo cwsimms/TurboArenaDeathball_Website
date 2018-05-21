@@ -113,6 +113,7 @@ h3 {
 }
 
 .feature-image {
+    display: block;
     background-color: #ebebeb;
     background-attachment: fixed;
     background-position: 100%, 50%;
@@ -180,6 +181,7 @@ video{
     }
 
     .feature-image {
+        display: block;
         background-color: #ebebeb;
         background-attachment: fixed;
         background-position: 100%, 50%;
@@ -187,8 +189,8 @@ video{
         padding-top: 15%;
         padding-bottom: 3%;
         height: auto;
-        max-width: 250px;
-        width: 50%;
+        max-width: 200px;
+        width: 100%;
     }
     
     #feature-video {
@@ -242,6 +244,7 @@ video{
     }
 
     .feature-image {
+        display: block;
         background-color: #ebebeb;
         background-attachment: fixed;
         background-position: 100%, 50%;
@@ -249,7 +252,7 @@ video{
         padding-top: 15%;
         padding-bottom: 3%;
         height: auto;
-        max-width: 100px;
-        width: 20%;
+        max-width: 50px;
+        width: 100%;
     }
 }
