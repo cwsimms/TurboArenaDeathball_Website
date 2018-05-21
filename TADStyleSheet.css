@@ -255,4 +255,8 @@ video{
         max-width: 50px;
         width: 100%;
     }
+
+    body{
+        width: 300px;
+    }
 }
