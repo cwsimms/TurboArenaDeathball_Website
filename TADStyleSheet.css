@@ -113,7 +113,7 @@ h3 {
 }
 
 .feature-image {
-    display: block;
+    //display: block;
     //background-color: #ebebeb;
     //background-attachment: fixed;
     //background-position: 100%, 50%;
@@ -157,7 +157,7 @@ video{
     max-width: 100%;
 }
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 700px) {
     .titlebar {
         position: fixed;
         background-color: #ebebeb;
@@ -185,7 +185,7 @@ video{
     }
 
     .feature-image {
-        display: block;
+        //display: block;
        // background-color: #ebebeb;
       //  background-attachment: fixed;
      //   background-position: 100%, 50%;
@@ -237,7 +237,7 @@ video{
     }
 }
 
-@media screen and (max-width: 520px) {
+@media screen and (max-width: 675px) {
     .center {
         margin: auto;
         width: 50%;
@@ -253,7 +253,7 @@ video{
     }
 
     .feature-image {
-        display: block;
+        //display: block;
         //background-color: #ebebeb;
         //background-attachment: fixed;
         //background-position: 100%, 50%;
@@ -272,7 +272,7 @@ video{
     }
 
     body{
-        width: 300px;
+        width: 375px;
     }
 
     #navlist li,
@@ -280,5 +280,19 @@ video{
         display: inline-block;
         padding: 0px 7px 0px 7px;
         font-size: 16px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    #navlist li,
+    h2 {
+        display: block;
+        padding: 0px 7px 1.5px 7px;
+        font-size: 16px;
+    }
+
+    #main-title{
+        display: inline;
+        position: fixed;
     }
 }
