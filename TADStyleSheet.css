@@ -245,9 +245,9 @@ video{
 
     .feature-image {
         display: block;
-        background-color: #ebebeb;
-        background-attachment: fixed;
-        background-position: 100%, 50%;
+        //background-color: #ebebeb;
+        //background-attachment: fixed;
+        //background-position: 100%, 50%;
         float: right;
         padding-top: 15%;
         padding-bottom: 3%;
