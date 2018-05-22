@@ -118,8 +118,8 @@ h3 {
     //background-attachment: fixed;
     //background-position: 100%, 50%;
     float: right;
-    padding-top: 0%;
-    padding-bottom: 3%;
+    padding-top: 2%;
+    padding-bottom: 20px;
     height: auto;
     max-width: 720px;
     width: 100%;
@@ -179,6 +179,45 @@ video{
     }
 }*/
 
+@media screen and (max-width: 600px) {
+    .titlebar {
+        position: fixed;
+        background-color: #ebebeb;
+        font-family: Helvetica-Bold, sans-serif;
+        color: #36a3ff;
+        text-align: left;
+        height: 13vw;
+        max-height: 150px;
+        min-height: 90px;
+        width: 102%;
+        transform: rotate(-3deg) translateY(-50px) translateX(-2px);
+    }
+
+    #main-title {
+        text-align: right;
+        position: absolute;
+        bottom: 0;
+        right: 15vw;
+        display: inline-block;
+        font-size: 24px;
+    }
+
+    #navlist li,
+    h2 {
+        display: block;
+        padding: 0px 7px 0px 7px;
+        font-size: 16px;
+    }
+}
+
+@media screen and (max-width: 580px) {
+
+    .feature-list{
+        padding-top: 5%;
+        padding-bottom: 5%;
+    }
+}
+
 
 @media screen and (max-width: 564px) {
     .titlebar {
@@ -197,8 +236,8 @@ video{
     .center {
         margin: auto;
         width: 50%;
-        padding-top: 0%;
-        padding-bottom: 3%;
+        padding-top: 11%;
+        padding-bottom: 0%;
     }
 
     .right {
@@ -258,6 +297,7 @@ video{
     }
 }
 
+
 @media screen and (max-width: 400px) {
     .center {
         margin: auto;
@@ -280,19 +320,17 @@ video{
         //background-position: 100%, 50%;
         float: right;
         padding-top: 0%;
-        padding-bottom: 3%;
+        padding-bottom: 22.5%;
         height: auto;
-        max-width: 200px;
+        max-width: 400px;
         width: 100%;
         right: 0px;
         margin-right: 0;
-        //width: 300px;
-        padding-left: 0%;
-        //background-size: //border: 3px solid #ebebeb;
+        padding-left: 20%;
     }
 
     body {
-        width: 375px;
+        width: 400px;
     }
 
     #navlist li,
@@ -303,7 +341,8 @@ video{
     }
 }
 
-@media screen and (max-width: 400px) {
+
+@media screen and (max-width: 300px) {
     #navlist li,
     h2 {
         display: block;
@@ -316,3 +355,4 @@ video{
         position: fixed;
     }
 }
+    
